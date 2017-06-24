@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="itemSetting">Настройки</string>
+    <string name="itemClock">Годинник</string>
+    <string name="itemCamera">Камера</string>
+    <string name="itemMail">Емейл</string>
+</resources>

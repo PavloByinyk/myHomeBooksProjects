@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RxJava</string>
+    <string name="title_activity_rx_and_retrofit">RxAndRetrofit</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Servise v1</string>
+    <string name="start">Start service</string>
+    <string name="stop">Stop service</string>
+    <string name="start1">Start</string>
+    <string name="stop1">stop</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="correct_toast">Correct</string>
+    <string name="incorrect_toast">Incorrect</string>
+    <string name="next_button">Next</string>
+    <string name="previus_button">Previus</string>
+    <string name="question_Italy">Токіо столиця Італії</string>
+    <string name="question_USA">Вашингтон столиця Америки</string>
+    <string name="question_Poland">Варшава столиця Польщі</string>
+    <string name="question_Japan">Львів столиця Японії</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="warning_text">Are you sure you want to do this?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="judgment_toast">Cheating is wrong.</string>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.turtledev.sql_lesson_1.Country">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Всі записи"
+        android:id="@+id/btnAll"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Функції"
+        android:id="@+id/btnFunctions"
+        android:layout_below="@+id/btnAll"
+        android:layout_alignEnd="@+id/btnAll"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Населення>"
+        android:id="@+id/btnPeople"
+        android:layout_below="@+id/btnFunctions" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Населення по регіону"
+        android:id="@+id/btnRegionPeople"
+        android:layout_below="@+id/btnPeople" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Населення по регіону >"
+        android:id="@+id/btnRegionPeoplePlus"
+        android:layout_below="@+id/btnRegionPeople"
+        android:layout_alignEnd="@+id/btnRegionPeople" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Групування"
+        android:id="@+id/btnSort"
+        android:layout_below="@+id/btnRegionPeoplePlus"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etFunction"
+        android:layout_below="@+id/btnAll"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/btnFunctions" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etNAselennya"
+        android:layout_above="@+id/btnRegionPeople"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/btnPeople" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etRegionNasPlus"
+        android:layout_above="@+id/btnSort"
+        android:layout_toEndOf="@+id/btnRegionPeoplePlus" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegionPeoplePlus"
+        android:layout_centerHorizontal="true">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назва"
+        android:id="@+id/rbName"
+        android:layout_alignBottom="@+id/btnSort"
+        android:layout_toEndOf="@+id/btnSort"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Населення"
+        android:id="@+id/rbNaselennya"
+        android:checked="false"
+        android:layout_below="@+id/rbName"
+        android:layout_alignStart="@+id/rbName" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Регіон"
+        android:id="@+id/rbRegion"
+        android:checked="false"
+        android:layout_below="@+id/rbNaselennya"
+        android:layout_alignStart="@+id/rbNaselennya" />
+    </RadioGroup>
+
+</RelativeLayout>

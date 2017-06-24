@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "771113643775",
+    "firebase_url": "https://myfirebasebeta.firebaseio.com",
+    "project_id": "myfirebasebeta",
+    "storage_bucket": "myfirebasebeta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771113643775:android:df3be73e4b54923b",
+        "android_client_info": {
+          "package_name": "gottgried.example.com.myfirebasebeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771113643775-d4lospgsqk2rume3e8s6vpm1o80df5pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD3FGOC-9pBPYkdqbrLv4zWU30bdodur4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

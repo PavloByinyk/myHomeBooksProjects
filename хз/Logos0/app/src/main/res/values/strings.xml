@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Logos1</string>
+    <string name="user_log">Ведіть логін</string>
+    <string name="user_password">Ведіть пароль</string>
+    <string name="user_mail">Ведіть емейл</string>
+    <string name="check">Перевірити</string>
+    <string name="delete">Видалити</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">2_AsyncTask</string>
+    <string name="start">Start</string>
+    <string name="get">Result</string>
+</resources>

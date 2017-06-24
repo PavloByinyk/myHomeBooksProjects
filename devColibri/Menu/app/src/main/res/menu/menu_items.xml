@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setting"
+        android:orderInCategory="3"
+        android:title="@string/itemSetting"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/clock"
+        android:orderInCategory="2"
+        android:title="@string/itemClock"
+        android:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/camera"
+        android:orderInCategory="1"
+        android:title="@string/itemCamera"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/mail"
+        android:orderInCategory="0"
+        android:title="@string/itemMail"
+       android:showAsAction="withText"/>
+</menu>

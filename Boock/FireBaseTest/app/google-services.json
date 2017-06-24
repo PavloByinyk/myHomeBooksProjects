@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "822670382462",
+    "firebase_url": "https://firetest-71702.firebaseio.com",
+    "project_id": "firetest-71702",
+    "storage_bucket": "firetest-71702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822670382462:android:d41b435e1a33d824",
+        "android_client_info": {
+          "package_name": "com.bignerdranch.android.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822670382462-jc5j088octoqb08s33fgv50b1g8nvi9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmOWOc8BmgrnCh5GMhqcOlOcLjYq7zSqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">onActivityResultRequestCode</string>
+    <string name="tvName">Привіт! Як вас звати?</string>
+    <string name="tvLang">Ваш язик : Невідомо</string>
+    <string name="setName">Вказати імя</string>
+    <string name="setLang">Вказати мову</string>
+    <string name="bpres">Представитись</string>
+    <string name="setPres">Ваше імя</string>
+    <string name="btnUcr">Українська</string>
+    <string name="btnRus">Русский</string>
+    <string name="btnEng">English</string>
+</resources>

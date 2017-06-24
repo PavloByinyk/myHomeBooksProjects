@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLog"
+        android:layout_above="@+id/etPas"
+        android:hint="@string/LogHintLog"
+        android:layout_alignLeft="@+id/etPas"
+        android:layout_alignRight="@+id/etPas"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/etPas"
+        android:hint="@string/LogHintPas"
+        android:layout_marginLeft="160dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/LogBtn"
+        android:id="@+id/logBtn"
+        android:layout_below="@+id/etPas"
+        android:layout_alignRight="@+id/etPas"
+        android:layout_alignLeft="@+id/etPas"/>
+
+
+    />
+
+</RelativeLayout>

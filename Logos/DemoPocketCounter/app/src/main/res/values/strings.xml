@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PockerCounter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="LogHintPas">Password</string>
+    <string name="LogHintLog">Login</string>
+    <string name="LogBtn">Login</string>
+    <string name="LogToast">Вкажіть усі дані</string>
+    <string name="facd_charge_name">Charge name</string>
+    <string-array name="charges_array">
+        <item>сир</item>
+        <item>масло</item>
+        <item>ікра чорна</item>
+        <item>ікра заморська</item>
+        <item>хліб</item>
+
+    </string-array>
+</resources>

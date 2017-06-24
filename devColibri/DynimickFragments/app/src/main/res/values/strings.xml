@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DynimickFragments</string>
+    <string name="btnAdd">Добавити</string>
+    <string name="btnDelete">Видалити</string>
+    <string name="tvTwoFragment">TwoFragment</string>
+    <string name="tvOneFragment">OneFragment</string>
+
+
+</resources>
